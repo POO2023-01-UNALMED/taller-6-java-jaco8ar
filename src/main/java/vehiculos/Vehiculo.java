@@ -80,6 +80,9 @@ public class Vehiculo {
 	public void setFabricante(Fabricante fabricante) {
 		this.fabricante = fabricante;
 	}
+	public static void setCantidad(int cantidad) {
+		CantidadVehiculos = cantidad;
+	}
 	
 	public static String vehiculosPorTipo() {
 		return "Automoviles: " + Automovil.CantidadAutos + "\nCamionetas: " + Camioneta.CantidadCamionetas + 
