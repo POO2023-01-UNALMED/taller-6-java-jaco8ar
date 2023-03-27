@@ -80,7 +80,7 @@ public class Vehiculo {
 	public void setFabricante(Fabricante fabricante) {
 		this.fabricante = fabricante;
 	}
-	public static void setCantidad(int cantidad) {
+	public static void setCantidadVehiculos(int cantidad) {
 		CantidadVehiculos = cantidad;
 	}
 	
